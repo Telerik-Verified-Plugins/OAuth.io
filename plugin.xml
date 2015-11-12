@@ -2,15 +2,14 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.oauthio.plugins.oauthio"
-    version="0.2.5">
+    version="0.2.6">
 
     <name>OAuth.io</name>
     <license>Apache 2.0</license>
 
     <description>
-      &lt;p&gt;This is the official plugin for OAuth.io in Apache Cordova/PhoneGap!&lt;/p&gt;
-
-      &lt;p&gt;The OAuth.io plugin for Apache Cordova/PhoneGap allows you to use the same JavaScript code in your PhoneGap application as you use in your web application, to connect any OAuth provider available on OAuth.io.&lt;/p&gt;
+      The OAuth.io plugin for Apache Cordova allows you to use the same JavaScript code in your PhoneGap application
+      as you use in your web application, to connect any OAuth provider available on OAuth.io.
     </description>
 
     <asset src="www/dist/oauth.js" target="oauth.js" />
@@ -47,5 +46,5 @@
       <engine name="cordova" version=">=3.0.0" />
     </engines>
 
-    <dependency id="org.apache.cordova.inappbrowser" />
+    <dependency id="cordova-plugin-inappbrowser" />
 </plugin>
